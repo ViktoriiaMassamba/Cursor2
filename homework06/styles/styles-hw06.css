@@ -1,0 +1,325 @@
+.element-2 {
+    overflow: hidden; /*Свойство overflowуказывает, что должно произойти, если содержимое выходит за пределы поля элемента. hidden Переполнение обрезается, и остальная часть содержимого будет невидимой. */
+    height: 844px;
+    width: 390px;
+    left: 0px;
+    top: 182px;
+    border-radius: 46px;
+    background: linear-gradient(168.32deg, #1A1C24 1.9%, #57586A 98.29%);
+    box-shadow: -40px 60px 150px 0px #0B0A0AB2;
+    position: relative;
+    z-index: 1;
+}
+
+.statusbar {
+    height: 47px;
+    width: 390px;
+    left: 4 px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.time {
+    height: 20px;
+    width: 54px;
+    margin-left: 30px;
+    margin-top: 14px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon {
+    height: 13px;
+    width: 77px;
+    margin-right: 27px;
+    margin-top: 20px;
+    margin-left: 219px;
+}
+
+.Montreal {
+    height: 41px;
+    width: 129px;
+    margin-left: 130px;
+    margin-top: 28px;
+    margin-right: 130px;;
+    margin-bottom: 0;
+    font-family: 'Arial';
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.temperature-2 {
+    height: 41px;
+    width: 178px;    
+    margin-left: 101px;
+    margin-top: 12.2px;
+    margin-right: 116px;
+    font-family: 'SF Pro Text';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr {
+    height: 0px;
+    width: 390.9999834326492px;
+    left: 933.0023498535156px;
+    top: 357.3973388671875px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 13.55%, #FFFFFF 49.1%, rgba(255, 255, 255, 0) 83.89%);
+    border: 1px solid;
+    border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 13.55%, #FFFFFF 49.1%, rgba(255, 255, 255, 0) 83.89%);
+    position: absolute;
+}
+
+.content_widget2 {
+    height: 672px;
+    width: 390px;
+    top: 200px;
+    background: linear-gradient(180deg, rgba(58, 63, 84, 0) 0%, #3A3F54 100%);
+    position: absolute;
+}
+
+.widget1 {
+    height: 184px;
+    width: 342px;
+    left: 0;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.rectangle-1 {
+    height: 184px;
+    width: 342px;
+    left: 6.68963623046875px;
+    margin-top: 15px;
+    margin-right: 21px;
+    margin-left: 29px;
+    position: absolute;
+    z-index:-1;
+}
+
+.temperature-1-0 {
+    height: 41px;
+    width: 95px;
+    margin-top: 59px;
+    margin-right: 63px;
+    margin-bottom: 15px;
+    font-family: 'SF Pro Display';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.left_widget1 {
+    margin-left: 50px;
+}
+
+.info1-1 {
+    height: 41px;
+    width: 116px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+    color: rgba(235, 235, 245, 0.6)
+}
+
+.img_weather1 {
+    height: 160px;
+    width: 160px;
+    position: absolute;
+}
+
+.info1-2 {
+    height: 18px;
+    width: 53px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+.widget2 {
+    height: 184px;
+    width: 342px;
+    left: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.img_weather2 {
+    height: 160px;
+    width: 160px;
+    position: absolute;
+}
+
+.left_widget2 {
+    margin-left: 50px;
+}
+
+.temperature-2-0 {
+    height: 41px;
+    width: 95px;
+    margin-top: 59px;
+    margin-right: 63px;
+    margin-bottom: 10px;
+    font-family: 'SF Pro Display';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.info2-1 {
+    height: 41px;
+    width: 116px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+    color: rgba(235, 235, 245, 0.6)
+}
+
+.info2-2 {
+    height: 18px;
+    width: 53px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 145px;
+    margin-right: 25px;
+    margin-left: 90px;  
+}
+
+.widget3 {
+    height: 184px;
+    width: 342px;
+    left: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.img_weather3 {
+    height: 160px;
+    width: 160px;
+    position: absolute;
+}
+
+.left_widget {
+    margin-left: 50px;
+}
+
+.temperature-3-0 {
+    height: 41px;
+    width: 95px;
+    margin-top: 59px;
+    margin-right: 63px;
+    margin-bottom: 24px;
+    font-family: 'SF Pro Display';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.info3-1 {
+    height: 41px;
+    width: 116px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+    color: rgba(235, 235, 245, 0.6)
+}
+
+.info3-2 {
+    height: 18px;
+    width: 53px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 145px;
+    margin-right: 25px;
+    margin-left: 90px;  
+}
+
+.widget4 {
+    height: 184px;
+    width: 342px;
+    left: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.img_weather4 {
+    height: 51px;
+    width: 160px;
+    top: 0px;
+    position: absolute;
+}
+
+.info4-1 {
+    height: 41px;
+    width: 116px;
+    font-family: 'SF Pro Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07800000160932541px;
+    text-align: left;
+    color: rgba(235, 235, 245, 0.6)
+}
