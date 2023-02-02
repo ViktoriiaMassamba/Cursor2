@@ -98,24 +98,24 @@ body {
     height: 592px;
     width: 1440px;
     display: flex;
-    margin-right: 700px;
-    /*background: url(../homework10/img/Rectangle.png) no-repeat;*/
-    position: relative;
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%),
+linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
-.blok1-img {
+/*.blok1-img {
     height: 592px;
     width: 805px;
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%),
+linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-image: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%),
+linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     position: absolute;
-    z-index: 3;
-}
+    z-index: 4;
+}*/
 
 .blok1-left {
     height: 592px;
     width: 688px;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
-    z-index: 4;
 }
 
 .blok1-left-img {
@@ -123,7 +123,6 @@ body {
     height: 592px;
     width: 100%;
     background: url(../img/Rectangle.png) no-repeat;
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
 }
 
 /*.blok1:after {
@@ -250,10 +249,7 @@ body {
 .blok1-right {
     height: 592px;
     width: 635px;
-    width: 427px;
-    padding-left: 167px;
-    padding-right: 217px;
-    background: #FFFFFF;
+    margin-left: 168px;
 }
 
 .blok1-2-text-1 {
@@ -447,28 +443,7 @@ body {
     overflow: hidden; /* Hide horizontal scrollbar */
 }
 
-.slid-1 {
-    height: 161px;
-    min-width: 309px;
-    Background: #FFFFFF;
-    border-radius: 4px;
-    border: 1px solid #828282;
-    margin-right: 36px; 
-    position: relative;
-    z-index: 9;
-}
-
-.slid-1-1 {
-    height: 161px;
-    width: 309px;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 47%, rgba(255,255,255,0.05926120448179273) 100%);
-    margin-right: 36px;
-    z-index: 10;
-    position: absolute;
-    }
-
-.slid-2, .slid-3, .slid-4, .slid-5 {
+.slid-1, .slid-2, .slid-3, .slid-4, .slid-5 {
     height: 161px;
     min-width: 309px;
     Background: #FFFFFF;
