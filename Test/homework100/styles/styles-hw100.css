@@ -12,71 +12,67 @@ body {
 }
 
 .conteiner {
-    height: 4028px;
-    max-width: 1440px;
     display: flex;
     flex-wrap: wrap;
+    height: 4028px;
+    max-width: 1440px;
     margin: 0 auto;
     justify-content: center;
 }
 
-.header {
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
+.baner {
+    height: 665px;
+    width: 1440px;
     background: #F4F6F9;
-    flex-direction: row;
     display: flex;
 }
 
-.header-1 {
-    padding-top: 4%;
-    padding-left: 11.5%;
-    padding-bottom: 11%;
-    flex-basis: 45%;
+.baner-1 {
+    width: 483px;
+    height: 665px;
 }
 
 .logo-1 {
     height: 32px;
     width: 99px;
+    margin-left: 163px;
     margin-top: 61px;
 }
 
-.header-text-1 {
-    height: 19.6%;
-    width: 34.83vw;
-    font-family: 'Lato', sans-serif;
-    font-size: 2.25rem;
+.baner-text-1 {
+    height: 96px;
+    width: 546px;
+    font-family: 'Lato', sans-seri;
+    font-size: 36px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.03em;
     text-align: left;
     color: #333333;
-    margin-top: 21%;
+    margin-top: 133px;
+    margin-left: 163px;
 }
 
-.header-text-2 {
-    height: 11%;
-    width: 28.9vw;
+.baner-text-2 {
+    height: 52px;
+    width: 453px;
     font-family: 'Lato';
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
     color: #4F4F4F;
-    margin-top: 4.51%;
+    margin-top: 30px;
+    margin-left: 163px;
 }
 
 .apps-1 {
     height: 47px;
-    min-width: 44px;
     width: 348px;
-    min-width: 315px;
     display: flex;
-    margin-top: 8.3%;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 163px;
 }
 
 .app-1, .app-2 {
@@ -89,26 +85,25 @@ body {
     margin-right: 36px;
 }
 
-.header-2 {
+.baner-2 {
     height: 668px;
     width: 993px;
     background: url(../img/Frame.png);
 }
 
-/*.header-img {
+.baner-img {
     height: 626px;
     width: 776px;
     margin-bottom: 39px;
-}*/
+}
 
 .blok1 {
-    height: 100%;
-    width: 100vw;
+    height: 592px;
+    width: 1440px;
     display: flex;
     margin-right: 700px;
     /*background: url(../homework10/img/Rectangle.png) no-repeat;*/
     position: relative;
-    flex-direction: row;
 }
 
 .blok1-img {
@@ -168,7 +163,7 @@ body {
     height: 23px;
     width: 100px;
     font-family: 'Lato';
-    font-size: 1.0625rem;
+    font-size: 17px;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
@@ -742,8 +737,8 @@ font-size: 14px;
 }
 
 @media screen and (max-width: 1440px) {
-    .header {
-        flex-basis: 80%;
+    .baner {
+        flex-basis: 100%;
     }
 
     .blok1 {
@@ -757,60 +752,27 @@ font-size: 14px;
 
 
 @media screen and (max-width: 720px) {
-    .header {
-        margin: 0 auto;
-        padding: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /*padding: 7% 2% 1% 2%;*/
-        flex-basis: 50%;
+    .baner {
+        flex-basis: 38%;
     }
 
-    .header-text-1 {
-        height: 59%;
-        max-width: 8.38vw;
-        font-family: 'Lato', sans-serif;
-        font-size: 1.88em;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        color: #333333;
-        margin-top: 16.38%;
-        flex-basis: 59%;
+    .blok1 {
+        flex-basis: 30%;
     }
 
-    .apps-1 {
-        flex-basis: 91.95%;
+    .blok2 {
+        flex-basis: 23%;
     }
 }
 
 
 @media screen and (max-width: 360px) {
-    .header {
-        margin: 0 auto;
-        padding: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .baner {
         flex-basis: 38%;
     }
 
-    .header-text-1 {
-        height: 59%;
-        max-width: 8.38vw;
-        font-family: 'Lato', sans-serif;
-        font-size: 1.88em;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        color: #333333;
-        margin-top: 16.38%;
-        flex-basis: 59%;
+    .blok1 {
+        flex-basis: 30%;
     }
 
     .blok2 {

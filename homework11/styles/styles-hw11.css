@@ -1,0 +1,293 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(16, 0, 46);
+    padding-top: 20px;
+}
+
+.element-1 {
+    width: 100px;
+    height: 5px;
+    background: rgb(231, 17, 17);
+    border:none; 
+    border-radius: 20px;
+    top: 10%;
+    left: 25%;
+    position: relative;
+    transition: transform 3s cubic-bezier(.52,.49,.57,.54);
+}
+
+.element-1:hover {
+    transform: translateY(-10px);
+    background: rgb(203,0,28);
+background: linear-gradient(0deg, rgba(203,0,28,1) 15%, rgba(207,0,0,1) 30%, rgba(246,86,86,1) 47%, rgba(207,0,0,1) 70%, rgba(203,0,28,1) 85%);
+}
+
+.element-group {
+    position: relative;
+    left: 17%;
+    top: 30%;
+}
+
+.element-2 {
+    width: 100px;
+    position: absolute;
+    height: 5px;
+    background: rgb(5, 70, 19);
+    border:none; 
+    border-radius: 20px;
+    animation: skew 3s infinite;
+    z-index: 1;
+}    
+
+.element-2:hover {
+    background: rgb(1,52,2);
+background: linear-gradient(0deg, rgba(1,52,2,1) 15%, rgba(14,103,39,1) 30%, rgba(148,237,152,1) 50%, rgba(14,103,39,1) 70%, rgba(1,52,2,1) 85%);
+    transition: trasform 2s linear;
+    transform: rotate(-45deg);
+}
+
+@keyframes skew {
+    0% {
+      transform: skew(20deg, 20deg);
+    }
+    100% {
+      transform: skew(-20deg, -20deg);
+    }
+  }
+
+.element-3 {
+    width: 100px;
+    height: 5px;
+    left: 30%;
+    position: absolute;
+    background: rgb(10,19,130);
+    border-radius: 10px;
+    z-index: 2;
+    animation: skew 3s infinite;
+}
+
+.element-3:hover {
+    background: rgb(10,19,130);
+    background: linear-gradient(0deg, rgba(10,19,130,1) 15%, rgba(45,78,149,1) 30%, rgba(148,177,237,1) 50%, rgba(74,125,234,1) 70%, rgba(30,35,98,1) 85%);
+    transition: trasform 2s linear;
+    transform: rotate(45deg);
+} 
+
+@keyframes skew {
+    0% {
+      transform: skew(20deg, 20deg);
+    }
+    100% {
+      transform: skew(-20deg, -20deg);
+    }
+  }
+  
+
+.section-2 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(16, 0, 46) ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ellips-1, .ellips-2, .ellips-3, .ellips-4, .ellips-5, .ellips-6, .ellips-7 {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 1px;
+}
+
+.ellips-1 {
+    background-color: rgb(47,51,236);
+    animation: left 4s 0s infinite;
+}
+
+@keyframes left {
+    0% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+ 
+    }
+ 
+    20% {
+       transform: translate(-70px, -30px);
+       transform-origin: center;
+    }
+ 
+    40% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+    }
+ }
+
+ @keyframes right {
+    0% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+ 
+    }
+ 
+    20% {
+       transform: translate(-70px, -30px);
+       transform-origin:  center ;
+    }
+ 
+    40% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+    }
+ }
+
+.ellips-2 {
+    background: rgb(47,51,236);
+    background: linear-gradient(90deg, rgba(47,51,236,1) 40%, rgba(83,198,191,1) 80%);
+    animation: 5s linear 0s infinite alternate rise;
+}
+
+    @keyframes rise {
+        from {
+        transform: translateX(1vw);
+        filter: brightness(75%);
+        }
+
+        to {
+        transform: translateX(0);
+        }
+    }
+  
+  @keyframes bounce {
+        from {
+        transform: translateX(-50vw);
+        background-color: rgba(47,51,236,1)
+        }
+        to {
+        transform: translateX(50vw);
+        background-color: rgba(83,198,191,1);
+        }
+  }
+
+.ellips-3 {
+    background: rgb(95,225,184);
+    background: linear-gradient(90deg, rgba(95,225,184,1) 53%, rgba(96,226,182,1) 80%);
+    animation: 5s linear 0s infinite alternate rise;
+}
+
+@keyframes rise {
+    from {
+    transform: translateX(1vw);
+    }
+    to {
+    transform: translateX(0);
+    }
+}
+
+@keyframes bounce {
+from {
+  transform: translateX(-50vw);
+}
+to {
+  transform: translateX(50vw);
+}
+}
+
+.ellips-4 {
+    background: rgb(96,226,182);
+    
+}
+
+.ellips-5 {
+    background: rgb(74,180,165);
+    animation: 5s linear 0s infinite alternate rise;
+}
+
+    @keyframes rise {
+        from {
+        transform: translateX(1vw);
+        }
+        to {
+        transform: translateX(0);
+        }
+    }
+  
+  @keyframes bounce {
+    from {
+      transform: translateX(-50vw);
+    }
+    to {
+      transform: translateX(50vw);
+    }
+  }
+
+.ellips-6 {
+    background: rgb(74,180,165);
+    animation: 5s linear 0s infinite alternate rise;
+}
+
+    @keyframes rise {
+        from {
+        transform: translateX(1vw);
+        }
+        to {
+        transform: translateX(0);
+        }
+    }
+  
+  @keyframes bounce {
+    from {
+      transform: translateX(-50vw);
+    }
+    to {
+      transform: translateX(50vw);
+    }
+  }
+
+.ellips-7 {
+    background: rgb(63,136,128);
+    animation: right 4s 0s infinite;
+}
+
+@keyframes right {
+    40% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+ 
+    }
+ 
+    20% {
+       transform: translate(70px, -30px);
+       transform-origin: center;
+    }
+ 
+    0% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+    }
+ }
+
+ @keyframes light {
+    40% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+ 
+    }
+ 
+    20% {
+       transform: translate(-70px, -30px);
+       transform-origin:  center ;
+    }
+ 
+    0% {
+       transform: translate(0px, 0px);
+       transform-origin: center;
+    }
+}

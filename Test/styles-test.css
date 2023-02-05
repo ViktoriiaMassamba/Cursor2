@@ -1,3 +1,61 @@
+:root {
+    --main-bg: rgb(44, 44, 44);
+    --base-width: 200px;
+    --icon-color:#03A9F4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: var(--main-bg);
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        column-gap: 4px;
+    }
+
+    .box {
+        flex-basis: 30%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .box {
+        flex-basis: 47%;
+    }
+}
+
+.box {
+    height: var(--base-width);
+    width: var(--base-width);
+    background-color: green;
+} 
+
+@media screen and (max-width: 576px) {
+    .container {
+        column-gap: 0px;
+    }
+    
+    .box {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .box {
+        background-color: rgb(161, 245, 161);
+    }
+}
+
+
+
 /*.Background {
     height: 150px;
     width: 200px;
@@ -8,7 +66,7 @@
     margin-right: 36px;  
     z-index: 1;
     position: absolute;
-} 
+}
 
 .gradient {
 height: 150px;
@@ -19,9 +77,9 @@ border: 1px solid #828282;
 margin-right: 36px;
 z-index: 2;
 position: absolute;
-} */
+}
 
-.blok1 {
+/*.blok1 {
     height: 592px;
     width: 1440px;
     display: flex;
@@ -43,7 +101,7 @@ position: absolute;
     height: 592px;
     width: 100%;
     z-index: 4;
-}*/
+}
 
 .blok1 {
     height: 592px;
@@ -66,7 +124,7 @@ position: absolute;
 .blok1-left {
     height: 592px;
     width: 688px;
-    /*background: url(../homework10/img/Rectangle.png) no-repeat;*/
+    /*background: url(../homework10/img/Rectangle.png) no-repeat;
     position: relative;
 }
 
@@ -97,7 +155,7 @@ position: absolute;
     margin-left: 163px;
     position: absolute;
     z-index: 3;
-}*/
+}
 
 .blok1-element1 {
     height: 125px;
@@ -256,4 +314,4 @@ position: absolute;
     text-align: left;
     color: #00ADEE;
     margin-top: 22px;
-}
+}*/
