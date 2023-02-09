@@ -1,0 +1,199 @@
+.container {
+    height: 2247px;
+    width: 941px;
+    padding: 0;
+}
+
+.search-input {
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.input-size {
+    width: 220px;
+    height: 30px;
+    color: #8F8F8F;
+    background-image: url(../img/search.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: left 30% center;
+}
+
+.placeholder {
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8F8F8F;
+}
+
+.icon-nav {
+    height: 30px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.icon-dir-mail {
+    height: 18px;
+    width: 18px;
+    background: #DC565B;
+    border-radius: 50%;
+    padding: 2px 3px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 2;
+}
+
+.icon-direct {
+    z-index: 1;
+    position: relative;
+    margin-top: 5px;
+}
+
+.icon-ball, .icon-home, .icon-direct, .icon-like, .icon-compass {
+    height: 22px;
+    width: 22px;
+}
+
+.icon-ball {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: #4094EF;
+}
+
+.nav-one-text {
+    font-family: 'Helvetica Neue';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.nav-two {
+    font-family: 'Helvetica Neue';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn-nav1 {
+    height: 29px;
+    width: 97px;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.btn-nav2 {
+    height: 29px;
+    width: 33px;
+    border-radius: 3px;
+}
+
+.name {
+    margin-top: 35px;
+}
+
+.foll {
+    margin-top: 21px;
+}
+
+.Avatar {
+    margin-left: 78px;
+}
+
+.About-text-1 {
+    font-family: 'Helvetica Neue';
+    font-size: bold;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 21px;
+}
+
+.About-text-2 {
+    font-family: 'Helvetica Neue';
+    font-size: 17px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.About-text-3 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0f0258;
+}
+
+.About-text-3:hover {
+    color: blue;
+}
+
+.stories {
+    height: 115px;
+    margin-top: 55px;
+}
+
+.relevant {
+    width: 87px;
+    height: 115px;
+    margin-right: 34px;
+    margin-left: 20px;
+}
+
+.icon-network, .icon-tag {
+    height: 16px;
+    width: 15px;
+}
+
+.line {
+    height: 1px;
+    width: 942px;
+    background: #DBDBDB;
+}
+
+.border-top {
+    height: 53px;
+    width: 942px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.row {
+    width: 100%;
+}
+
+.post {
+    height: 297px;
+    width: 297px;
+    background-color: grey;
+    padding: 0;
+    background-image: url(../img/Rectangle\ 73.png);
+}
