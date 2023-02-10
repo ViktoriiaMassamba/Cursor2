@@ -164,8 +164,8 @@
 .relevant {
     width: 87px;
     height: 115px;
-    margin-right: 34px;
-    margin-left: 20px;
+   /* margin-right: 34px;
+    margin-left: 20px;*/
 }
 
 .icon-network, .icon-tag {
