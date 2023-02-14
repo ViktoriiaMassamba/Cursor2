@@ -23,7 +23,9 @@
             </div> 
         </div>
         <div class="baner_image">
-            <img class="image1" src="./image/Video_bg.png" alt="">
+            <img class="image1" src="./image/Video_bg.png" alt="" (z-index: 2)>
+            <img class="image2" src="./image/Video_bg1.png" alt=""(z-index: 1)>
+            <img class="image3" src="./image/Video_bg (2).png" alt=""(z-index: 1)>
         </div>  
     </header>
     <contact>
@@ -33,15 +35,16 @@
         </div>
         <div class="form_contact">
             <div class="blok_first_part">
-                <button class="blok_name1"> First Name</button>
-                <button class="blok_name2"> Last Name</button>
+                <input type="blok_name1" name="firstname" value="First Name">
+                <input type="blok_name2" name="lastname" value="Last Name">
             </div>    
-                <button class="Phone_Number"> Phone Number</button>
-                <button class="blok_Service">
-                    <p class=""> Select Service </p> 
-                    <img class="image6" src="./image/ChevronDown(E70D).png" alt="">
-                </button>
-                <button class="button_form_contact">Submit Now </button>
+            <input type="Phone_Number" name="Phone" value="Phone Number">
+            <select name="blok_Service" id="Service">
+                <option value="Service1">Select Service</option>
+                <option value="Service2">Select Service</option>
+                <option value="Service3">Select Service</option>
+                </select>
+            <button class="button_form_contact">Submit Now </button>
         </div>
     </contact>
     <footer>

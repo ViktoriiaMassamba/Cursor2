@@ -1,7 +1,8 @@
 body {
-    height: 1480px;
-    width: 1440px;
-    background: #E5E5E5;
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    min-width: 1440px;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 }
 .banner_text1 {
     height: 107px;
-    width: 601px;
+    width: 400px;
     font-family: 'Lato';
     font-size: 36px;
     font-weight: 600;
@@ -68,7 +69,28 @@ header {
     width: 445px;
     border-radius: 15px;
     margin-top: 94px;
-    margin-right: 260px;
     margin-bottom: 95px;
+    margin-left: 81px;
+    z-index: 2;
+}
+
+.image2 {
+    height: 267px;
+    width: 383px;
+    border-radius: 15px;
+    margin-left: 37px;
+    margin-top: 116px;
+    position: absolute;
+    z-index: 1;
+}
+
+.image3 {
+    height: 267px;
+    width: 383px;
+    border-radius: 15px;
+    margin-left: 202px;
+    margin-top: 116px;
+    position: absolute;
+    z-index: 1;
 }
 

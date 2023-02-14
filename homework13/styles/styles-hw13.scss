@@ -11,6 +11,7 @@ body {
 .container {
     height: 4628px;
     width: 1440px;
+    padding-left: 165px;
 }
 
 head {
@@ -33,6 +34,17 @@ nav {
 .header-left {
     width: 539px;
     height: 421px;
+}
+
+.header-left-titel {
+    height: 48px;
+    width: 540px;
+}
+
+.header-left-text {
+    height: 140px;
+    width: 540px;
+    margin-top: 16px;
 }
 
 .header-img {
@@ -71,4 +83,20 @@ h1 {
 
 p {
     @include text (18px, rgb(204,209,228));   
+}
+
+@mixin logo {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #37447E;
+}
+
+.main1 {
+    height: 742px;
+    width: 1440px;
+    padding: 160px 165px 108px 165px;
 }
