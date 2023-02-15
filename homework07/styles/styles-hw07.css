@@ -1,15 +1,14 @@
 body {
-    background: #E5E5E5;
+    background: #ffffff;
 }
 
 .container {
-    height: 4500px;
-    width: 1600px;
+    height: 100vh;
+    width: 100%;
     max-width: 1600px;
     box-sizing: border-box;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     padding: 50px 240px 90px 220px;
-    margin: 100px;
 }
 
 .header {
@@ -99,6 +98,7 @@ body {
     border: 0px solid #9C69E2;
     position: relative;
     display: flex;
+    cursor: pointer;
 }    
 
 .header_nav_button_text {  
@@ -110,13 +110,15 @@ body {
     text-align: left;
     color: #212353;
     margin-left: 29px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .header_nav_button_icon {  
     height: 14px;
     width: 20px;
     margin-left: 20px;
-    margin-top: 23px;
+    margin-top: 20px;
     margin-bottom: 23px;
 }
 
@@ -185,6 +187,8 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 .section_1 {
@@ -378,12 +382,13 @@ body {
     letter-spacing: 0.005em;
     text-align: left;
     color: #212353;
+    cursor: pointer;
 }
 
 .features_block_btn_icon {
     height: 14px;
     width: 20px;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-left: 20px;
     
 }
@@ -430,7 +435,7 @@ body {
 .features_block_2_text_2 {
     height: 160px;
     width: 220px;
-    margin: 0;
+    margin: 15px 0 15px 0;
     font-family: 'Avenir';
     font-size: 16px;
     font-weight: 400;
@@ -674,7 +679,6 @@ body {
 .section_2_line {
     height: 2px;
     width: 1600px;
-    left: 105px;
     opacity: 0.2;
     background: #9C69E2;
     margin-top: 150px;
@@ -738,6 +742,7 @@ body {
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .footer_1_right_btn_2 {
@@ -750,6 +755,7 @@ body {
     box-shadow: 0px 5px 5px 0px #4B5D681A;
     align-items: center;
     display: flex;
+    cursor: pointer;
 }
 
 .footer_1_right_btn_2_text {
@@ -870,6 +876,14 @@ body {
     line-height: 26px;
     text-align: left;
     color: #212353
+}
+
+.footer_2_column_3 {
+    margin-right: 80px;
+}
+
+.footer_2_column_3_text {
+    margin-top: 28px;
 }
 
 .footer_2_column_3_text_2, .footer_2_column_3_text_3, .footer_2_column_3_text_4, .footer_2_column_3_text_5, .footer_2_column_3_text_6 {
