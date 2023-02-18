@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    height: 4628px;
-    width: 1440px;
+    height: 100vh;
+    width: 100%;
     padding-left: 165px;
 }
 
@@ -56,10 +56,11 @@ nav {
     overflow: hidden;    
 }
 
-@mixin btn ($bakground) {
+@mixin btn ($bakground, $border-color) {
     height: 26px;
     width: 160px;
     border-radius: 2px;
+    border-color: $border-color;
     background: $bakground;
 }
 
